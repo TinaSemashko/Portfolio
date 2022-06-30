@@ -1,0 +1,36 @@
+:root {
+  --primary-color: sienna;
+  --secondary-color: bisque;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+body {
+  text-align: center;
+  font-family: "Kaushan Script", cursive;
+  background-image: url("../images/garden.jpg");
+}
+.door-img {
+  width: 200px;
+  padding-top: 100px;
+}
+
+.about-link {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  background-color: bisque;
+}
+.container {
+  text-align: center;
+}
+
+.rabbit {
+  width: 300px;
+  padding-top: 100px;
+}
+h1 {
+  padding-top: 100px;
+}
