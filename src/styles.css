@@ -101,9 +101,11 @@ h2 {
   );
 }
 .img-class {
-  width: 300px;
+  margin: 45px;
+  width: 400px;
 }
 p {
+  padding: 25px;
   font-family: "Averia Serif Libre", cursive;
   font-size: 24px;
 }
