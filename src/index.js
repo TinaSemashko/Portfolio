@@ -1,5 +1,4 @@
 let doorCont = document.querySelector("#door-container");
-let cont = document.querySelector("#container");
 let h1 = document.querySelector("#h1");
 
 function pressD() {
@@ -23,5 +22,5 @@ function pressD() {
 doorCont.addEventListener("click", pressD);
 
 function goAbout() {
-  window.location.href = "/about.html";
+  window.location.href = "/homepage.html";
 }
