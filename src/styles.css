@@ -128,3 +128,40 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media (min-width: 900px) {
+  h3 {
+    font-size: 40px;
+  }
+  .header3 {
+    font-size: 48px;
+  }
+  .email-link {
+    font-size: 28px;
+  }
+  p {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 2;
+  }
+  h2 {
+    font-size: 64px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  .header3 {
+    font-size: 32px;
+  }
+  .email-link {
+    font-size: 18px;
+  }
+  p {
+    font-size: 12px;
+  }
+}
