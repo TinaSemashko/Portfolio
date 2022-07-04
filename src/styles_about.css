@@ -1,0 +1,24 @@
+body {
+  text-align: center;
+  background-color: black;
+  color: gold;
+}
+.img-class {
+  width: 400px;
+  border: double 10px;
+  border-color: antiquewhite;
+}
+p {
+  font-family: "Kaushan Script", cursive;
+  font-size: 24px;
+}
+.navbar {
+  background: antiquewhite;
+}
+.about-section {
+  padding: 160px 20px;
+}
+h1 {
+  font-family: "Lovers Quarrel", cursive;
+  font-size: 120px;
+}
