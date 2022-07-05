@@ -100,6 +100,9 @@ h2 {
     var(--secondary-color-opacity)
   );
 }
+.logo {
+  width: 30px;
+}
 .img-class {
   margin: 45px;
   width: 400px;

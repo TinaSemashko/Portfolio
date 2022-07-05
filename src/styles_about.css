@@ -8,12 +8,19 @@ body {
   border: double 10px;
   border-color: antiquewhite;
 }
+.logo {
+  width: 30px;
+}
+.color-blue {
+  color: blue;
+}
 p {
   font-family: "Kaushan Script", cursive;
   font-size: 24px;
 }
 .navbar {
   background: antiquewhite;
+  background: linear-gradient(315deg, blue, gold);
 }
 .about-section {
   padding: 160px 20px;
@@ -21,4 +28,21 @@ p {
 h1 {
   font-family: "Lovers Quarrel", cursive;
   font-size: 120px;
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 64px;
+    line-height: 2;
+  }
+  h2 {
+    font-size: 28px;
+    margin-top: 15px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 20px;
+  }
 }
