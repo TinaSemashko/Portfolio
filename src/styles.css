@@ -18,10 +18,10 @@
   --secondary-font-kaushan: "Kaushan Script", cursive;
   --primary-font-lobster: "Lobster Two", cursive;
 }
-body {
+.body-home {
   text-align: center;
 }
-body::after {
+.body-home::after {
   content: "";
   background: url("../images/garden.jpg");
   opacity: 0.7;
@@ -31,6 +31,21 @@ body::after {
   right: 0;
   position: fixed;
   z-index: -1;
+}
+
+.body-work {
+  background-image: linear-gradient(to top, bisque, antiquewhite);
+  text-align: center;
+}
+
+.body-about {
+  text-align: center;
+  background-color: black;
+  color: gold;
+}
+
+.container {
+  text-align: center;
 }
 
 .door-img {
@@ -64,10 +79,6 @@ body::after {
   border-image: var(--border-gradient);
 }
 
-.container {
-  text-align: center;
-}
-
 .rabbit {
   width: 300px;
   padding-top: 100px;
@@ -76,10 +87,17 @@ h1 {
   font-family: var(--secondary-font-kaushan);
   padding-top: 100px;
 }
+
 h2 {
   font-family: "Lovers Quarrel", cursive;
   font-size: 120px;
 }
+
+.header1 {
+  font-family: var(--primary-font-lobster);
+  font-size: 75px;
+}
+
 .contact h2 {
   font-size: 60px;
   padding: 50px;
@@ -100,16 +118,42 @@ h2 {
     var(--secondary-color-opacity)
   );
 }
+
+.nav-about {
+  background: linear-gradient(315deg, blue, gold);
+}
+
+.nav-work {
+  background: linear-gradient(315deg, burlywood, moccasin);
+}
+
 .logo {
   width: 30px;
 }
+
 .img-class {
-  margin: 45px;
-  width: 400px;
+  width: 350px;
 }
+
+.one {
+  width: 600px;
+}
+
+.img-class-about {
+  margin-top: 160px;
+  width: 400px;
+  border: double 10px;
+  border-color: antiquewhite;
+}
+
 p {
   padding: 25px;
   font-family: "Averia Serif Libre", cursive;
+  font-size: 24px;
+}
+
+.paragraph {
+  font-family: "Kaushan Script", cursive;
   font-size: 24px;
 }
 
@@ -123,6 +167,18 @@ p {
   border-image: var(--border-gradient);
   box-shadow: var(--box-shadow);
 }
+
+.work-btn {
+  padding: 20px 15px;
+  margin: 20px;
+  text-decoration: none;
+  background-color: burlywood;
+  border: 4px solid;
+  border-radius: 4px;
+  border-image: linear-gradient(45deg, burlywood, moccasin) 1;
+  box-shadow: var(--box-shadow);
+}
+
 .email-link {
   color: var(--primary-color);
   text-decoration: none;
@@ -130,6 +186,13 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+.color-blue {
+  color: blue;
+}
+.low-size {
+  font-size: 24px;
 }
 
 @media (min-width: 900px) {
@@ -149,7 +212,7 @@ p {
 
 @media (max-width: 576px) {
   h1 {
-    font-size: 48px;
+    font-size: 38px;
     line-height: 2;
   }
   h2 {
@@ -157,6 +220,9 @@ p {
   }
   h3 {
     font-size: 24px;
+  }
+  h4 {
+    font-size: 15px;
   }
   .header3 {
     font-size: 32px;
@@ -166,5 +232,23 @@ p {
   }
   p {
     font-size: 12px;
+  }
+  .img-class {
+    width: 300px;
+  }
+  .one {
+    width: 400px;
+  }
+}
+
+@media (max-width: 760px) {
+  .img-class {
+    width: 200px;
+  }
+  .one {
+    width: 300px;
+  }
+  .header1 {
+    font-size: 40px;
   }
 }
