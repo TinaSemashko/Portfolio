@@ -94,6 +94,10 @@ h2 {
   font-family: var(--font-quarrel);
   font-size: 120px;
 }
+h4 {
+  font-size: 48px;
+  font-family: var(--font-averia);
+}
 
 .header1 {
   font-family: var(--primary-font-lobster);
@@ -214,6 +218,56 @@ p {
 }
 .low-size {
   font-size: 24px;
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: rgba(213, 210, 210, 0.2);
+  padding: 30px 60px;
+  border-radius: 10px;
+}
+
+footer h4 {
+  font-size: 48px;
+  font-family: var(--font-averia);
+  line-height: 1.2;
+}
+
+footer .contact-box p {
+  margin: 0;
+  line-height: 30px;
+}
+
+footer .contact-link {
+  padding-top: 10px;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+
+footer .email-link:hover {
+  color: var(--primary-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: black;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 30px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--primary-color);
 }
 
 form input,
