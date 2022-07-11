@@ -19,6 +19,7 @@
   --secondary-font-kaushan: "Kaushan Script", cursive;
   --font-averia: "Averia Serif Libre", cursive;
   --font-quarrel: "Lovers Quarrel", cursive;
+  --color-blue: blue;
 }
 .body-home {
   text-align: center;
@@ -95,7 +96,7 @@ h2 {
   font-size: 120px;
 }
 h4 {
-  font-size: 48px;
+  font-size: 24px;
   font-family: var(--font-averia);
 }
 
@@ -146,7 +147,7 @@ h4 {
 }
 
 .img-class {
-  width: 350px;
+  width: 363px;
 }
 
 .one {
@@ -213,8 +214,38 @@ p {
   text-decoration: underline;
 }
 
+.email-link-about {
+  font-size: 24px;
+  color: var(--color-blue);
+}
+
+.email-link-about:hover {
+  text-decoration: underline;
+  color: gold;
+}
+
+.email-link-work {
+  font-size: 24px;
+  color: black;
+}
+
+.email-link-work:hover {
+  text-decoration: underline;
+  color: peru;
+}
+
+.email-link-contact {
+  font-size: 24px;
+  color: black;
+}
+
+.email-link-contact:hover {
+  text-decoration: underline;
+  color: rgb(4, 45, 94);
+}
+
 .color-blue {
-  color: blue;
+  color: var(--color-blue);
 }
 .low-size {
   font-size: 24px;
@@ -226,8 +257,21 @@ footer {
 
 footer .contact-box {
   background: rgba(213, 210, 210, 0.2);
-  padding: 30px 60px;
+  padding: 30px 30px;
   border-radius: 10px;
+}
+
+footer .about-btn {
+  background: linear-gradient(315deg, var(--color-blue), gold);
+}
+
+footer .work-btn-footer {
+  border: 4px solid;
+  border-image: linear-gradient(45deg, black, rgb(224, 220, 220)) 1;
+}
+
+footer .contact-btn-footer {
+  background: linear-gradient(315deg, rgb(4, 45, 94), rgb(153, 191, 237));
 }
 
 footer h4 {
@@ -238,11 +282,7 @@ footer h4 {
 
 footer .contact-box p {
   margin: 0;
-  line-height: 30px;
-}
-
-footer .contact-link {
-  padding-top: 10px;
+  line-height: 10px;
 }
 
 footer .email-link {
@@ -268,6 +308,29 @@ footer .social-links a {
 footer .social-links a:hover {
   color: white;
   background: var(--primary-color);
+}
+
+footer .text-center {
+  font-family: var(--font-quarrel);
+  font-size: 40px;
+}
+
+footer .about a {
+  color: var(--color-blue);
+}
+
+footer .about a:hover {
+  color: gold;
+  background: var(--color-blue);
+}
+
+footer .work a:hover {
+  color: moccasin;
+  background: peru;
+}
+
+footer .contact a:hover {
+  background: rgb(4, 45, 94);
 }
 
 form input,
