@@ -251,6 +251,10 @@ p {
   font-size: 24px;
 }
 
+.content-container {
+  text-align: left;
+}
+
 footer {
   margin: 60px 0;
 }
@@ -446,8 +450,11 @@ form select {
   .one {
     width: 400px;
   }
-  .container-fluid {
-    text-align: left;
+  footer .contact-box {
+    display: none;
+  }
+  .content h3 {
+    display: none;
   }
 }
 

@@ -39,7 +39,7 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top nav-contact" >
         <div class="container-fluid">
           <a class="navbar-brand" href="/index.html">
-            <img src="/images/heart.png" class="logo d-inline-block align-text-top" > Tina Semashko</a>
+            <img src="/images/heart.png" class="logo d-inline-block align-text-top" /> Tina Semashko</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -54,16 +54,16 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="homepage.html">Home</a>
+                <a class="nav-link " aria-current="page" href="/homepage.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html" title = "about Tina">About</a>
+                <a class="nav-link" href="/about.html" title = "about Tina">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="work.html" title = "about Tina's work">Work</a>
+                <a class="nav-link" href="/work.html" title = "about Tina's work">Work</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="contacts.html" title = "Tina's contacts">Contact</a>
+                <a class="nav-link active" href="/contacts.html" title = "Tina's contacts">Contact</a>
               </li>                            
                 </ul>
               </li>              
@@ -72,9 +72,9 @@
         </div>
       </nav>
     <div class="contact">
-      <div class="row">        
+      <div class="row pt-5">        
         <div class="col-md-8">
-          <form  action="https://formspree.io/f/mvoljqpq" method="POST" class="border p-3 rounded m-5">
+          <form  action="https://formspree.io/f/mvoljqpq" method="POST" class="border p-3 rounded m-5 form-contact">
             <div class="mb-3">  
               <label> Your email:</label> 
               <input class="form-control" type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="" autofocus = "">
@@ -87,53 +87,56 @@
               <button type="submit" class="btn contact-btn">Send</button>
           </form>
         </div>
-        <div class="col-4 mt-5 container">          
-            <h3><img class = "img-fluid rounded logo" src ="icons/email.png" alt="email"><a href="mailto:tina.semashko@gmail.com" class="email-link">
-              tina.semashko@gmail.com
+        <div class="col-4 mt-5 content-container container">   
+          <div class="content">
+              <a href="mailto:tina.semashko@gmail.com" class="email-link">
+              <img class = "img-fluid rounded logo" src ="/icons/email.png" alt="email" />
+              <h3>tina.semashko@gmail.com</h3>
                 </a>
-            </h3>
-            <h3><img class = "img-fluid rounded logo" src ="icons/telegram.png" alt="telegram"><a href="https://t.me/SemashkoTina" class="email-link">
-              @SemashkoTina 
+            <a href="https://t.me/SemashkoTina" class="email-link" >
+             <img class = "img-fluid rounded logo" src ="/icons/telegram.png" alt="telegram" />
+             <h3>@SemashkoTina</h3>  
               </a>
-            </h3>
-            <h3><img class = "img-fluid rounded logo" src ="icons/in.png" alt="linkedin"><a href="https://www.linkedin.com/in/tina-semashko/" class="email-link">
-              @tina-semashko
+            <a href="https://www.linkedin.com/in/tina-semashko/" class="email-link">
+             <img class = "img-fluid rounded logo" src ="/icons/in.png" alt="linkedin" /><h3>@tina-semashko</h3> 
               </a>
-            </h3>
+                       
         </div>
       </div>
+ </div>
+      
       <footer class="container">
-        <div class="contact-box d-flex justify-content-between mb-5 d-md-flex p-5 d-none">
+        <div class="contact-box justify-content-between mb-5 d-md-flex p-5">
           <div>
             <h4>Work Inquiry</h4>
             <p class = "text-muted">let's work together</p>
           </div>
           <div>
-            <a href="/contacts.html" class="btn contact-link contact-btn-footer p-4 mt-3 d-none" title="link to contacts">Contact me</a>
+            <a href="/contacts.html" class="btn contact-link contact-btn-footer p-4 mt-3 " title="link to contacts">Contact me</a>
           </div>
-        </div>
+        </div>        
 
-          <a href="mailto:tina.semashko@gmail.com" class="email-link-contact">
+        <a href="mailto:tina.semashko@gmail.com" class="email-link-contact">
               tina.semashko@gmail.com
-         </a>
-         <div class="social-links d-flex justify-content-center contact">
+        </a>
+        <div class="social-links d-flex justify-content-center contact">
           <a href = "https://github.com/TinaSemashko"
-            target="_blank" title = "Tina's github">
-            <i class = "fab fa-github"></i>  
+              target="_blank" title = "Tina's github">
+              <i class = "fab fa-github"></i>  
           </a>
           <a href = "https://www.linkedin.com/in/tina-semashko/"
-            target="_blank" title = "Tina's linkedin">
-            <i class = "fab fa-linkedin"></i>  
+              target="_blank" title = "Tina's linkedin">
+              <i class = "fab fa-linkedin"></i>  
           </a>
           <a href = "https://www.facebook.com/akateria/"
-            target="_blank" title = "Tina's facebook">
-            <i class = "fab fa-facebook" ></i>  
+              target="_blank" title = "Tina's facebook">
+              <i class = "fab fa-facebook" ></i>  
           </a>
-         </div>
+        </div>
 
         <p class="text-center mt-5">
           This website was coded by Tina Semashko, and is
-          <a href="https://github.com/TinaSemashko/Portfolio" target="_blank" title = "githun link that project">
+          <a href="https://github.com/TinaSemashko/Portfolio" target="_blank" title = "github link that project">
             open-sourced
           </a>
         </p>
