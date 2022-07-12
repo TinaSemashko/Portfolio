@@ -419,7 +419,7 @@ form select {
 
 @media (max-width: 576px) {
   h1 {
-    font-size: 38px;
+    font-size: 30px;
     line-height: 2;
   }
   h2 {
@@ -445,6 +445,9 @@ form select {
   }
   .one {
     width: 400px;
+  }
+  .container-fluid {
+    text-align: left;
   }
 }
 
