@@ -119,6 +119,13 @@ h4 {
   color: var(--primary-color);
   font-size: 48px;
 }
+
+.header3-work {
+  font-family: var(--primary-font-lobster);
+  color: aqua;
+  font-size: 48px;
+}
+
 .navbar {
   background: linear-gradient(
     315deg,
@@ -418,45 +425,50 @@ form select {
   z-index: -1;
 }
 
-.title {
-  color: red;
-  background: linear-gradient(90.71deg, #e002f5 -10%, #bfcfff 50%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  background: -webkit-linear-gradient(
-    left,
-    #e002f5,
-    #9051fe,
-    #bfcfff,
-    #9051fe,
-    #e002f5
-  );
+.rainbow-animated {
+  padding-top: 15vh;
+  padding-left: 5vh;
   background: linear-gradient(
-    left,
-    #e002f5,
-    #9051fe,
-    #bfcfff,
-    #9051fe,
-    #e002f5
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    cyan,
+    blue,
+    violet
   );
-  background-size: 3200px 200px;
-  animation: gradient 15s linear infinite;
-  color: transparent;
+  background-size: 400% 400%;
   -webkit-background-clip: text;
-  background-clip: text;
   -webkit-text-fill-color: transparent;
+  -webkit-animation: rainbow 20s ease infinite;
+  animation: rainbow 20s ease infinite;
+  font-size: 10vh;
+  line-height: 15vh;
+  font-family: var(--font-satisfy);
+}
 
-  @keyframes gradient {
-    0% {
-      background-position: 0% 0%;
-    }
-    50% {
-      background-position: 100% 0%;
-    }
-    100% {
-      background-position: 0% 0%;
-    }
+@-webkit-keyframes rainbow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
 
@@ -465,6 +477,10 @@ form select {
     font-size: 40px;
   }
   .header3 {
+    font-size: 48px;
+  }
+
+  .header3-work {
     font-size: 48px;
   }
   .email-link {
